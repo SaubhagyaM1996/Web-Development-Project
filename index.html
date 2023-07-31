@@ -22,11 +22,29 @@
                     <li><a href="Community.html">Community</a></li>
                     <li><a href="About.html">About</a></li>
                 </ul>
+        
+                <div class="dropdown">
+                    <button onclick="showMenu()" class="dropbtn">Menu</button>
+                    <div id="maindropdown" class="dropdown-content">
+                        <div>
+                            <div class="searchfieldMob"><input type="text" id="searchInput1"
+                                    style="border-radius: 5rem grey 1px; height: 30px;"></div>
+                            <div class="searchbuttonMob" onclick="search1()"><input type="submit" value="Search"
+                                    style="height: 30px; width:100px; background-color: #136912; border-radius: 5rem; border:0; color:white; font-weight: bold;">
+                            </div>
+                        </div>
+                        <a href="index.html">Home</a>
+                        <a href="Gallery.html">Gallery</a>
+                        <a href="Community.html">Community</a>
+                        <a href="About.html">About</a>
+                    </div>
+                </div>
             </div>
-            <!-- code need to be added -->
-            <div class="dropdown">Menu</div>
-            <div class="searchfield" ><input type="text" id="searchInput" style="border-radius: 5rem grey 1px; height: 30px;"></div>
-            <div class="searchbutton" onclick="search()"><input type="submit" value="Search" style="height: 30px; width:100px; background-color: #136912; border-radius: 5rem; border:0; color:white; font-weight: bold;"></div>
+            <div class="searchfield"><input type="text" id="searchInput" style="border-radius: 5rem grey 1px; height: 30px;">
+            </div>
+            <div class="searchbutton" onclick="search()"><input type="submit" value="Search"
+                    style="height: 30px; width:100px; background-color: #136912; border-radius: 5rem; border:0; color:white; font-weight: bold;">
+            </div>
         </div>
         <div class="middlebar">
             <video class="homevideo" src="Media/HomePage/homevideo.mp4" controls autoplay muted></video>
@@ -50,24 +68,11 @@
             </ul>
         </div>
         <div class="footer">
-            <div class="footertext">
-                <p>Please input your email address to subscribe our newsletter!</p>
-            </div>
             <img class="footerimage" src="Media/HomePage/footer.jpg" alt="footerimage">
-
+            <div class="footertext"><p>Please input your email address to subscribe our newsletter!</p></div>
             <div class="subscription">
-                <div class="subscriptionfield"><input type="text" style="border-radius: 5rem grey 1px; height: 30px;"></div>
+                <div class="subscriptionfield"><input type="text" style="border-radius: 5rem grey 1px; height: 30px; padding-left: 5px;" placeholder="example@example.com"></div>
                 <div class="subscriptionbutton" onclick="subscribe()"><input type="submit" style="height: 30px; width:100px; background-color: #781c1ca6;; border-radius: 5rem; border:0; color:white; font-weight: bold;"></div>
-            <!-- </div><div clss="footerend">
-                <div class="footerendline1">Follow us:</div>
-                <div class="footerendline2">
-                    <img src="Media/Icons/facebook.png" alt="facebook">
-                    <img src="Media/Icons/instagram.png" alt="instagram">
-                    <img src="Media/Icons/pinterest.png" alt="pinterest">
-                    <img src="Media/Icons/twitter.png" alt="twitter">
-                    <img src="Media/Icons/youtube.png" alt="">
-                </div>
-            </div> -->
         </div>
         <div class="footeredge">&copy; Copyright 2023 All rights reserved.</div>
     </div>
