@@ -26,7 +26,7 @@ function search() {
                 window.location.href = url;
                 }
       else if(keyword == "Paris"||keyword =="France") {
-                const url = "Bangkok.html?q" + encodeURIComponent(keyword);
+                const url = "Paris.html?q" + encodeURIComponent(keyword);
                 window.location.href = url;
                 }
     else if(keyword == "Nairobi"||keyword =="Kenya") {
@@ -97,7 +97,7 @@ window.onclick = function(event)
                 window.location.href = url;
                 }
     else if(keyword == "Paris"||keyword =="France") {
-                const url = "Bangkok.html?q" + encodeURIComponent(keyword);
+                const url = "Paris.html?q" + encodeURIComponent(keyword);
                 window.location.href = url;
                 }
     else if(keyword == "Nairobi"||keyword =="Kenya") {
