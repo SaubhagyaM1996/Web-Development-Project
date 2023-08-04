@@ -49,6 +49,10 @@ function showMenu()
 
 window.onclick = function(event) 
 {
+    if(event.target.matches('#searchInput1') || event.target.matches('#searchInput')) {
+        return;
+    }
+
     if (!event.target.matches('.dropbtn')) 
     {
       var dropdowns = document.getElementsByClassName("dropdown-content");
